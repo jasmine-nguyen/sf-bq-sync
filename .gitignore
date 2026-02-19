@@ -1,0 +1,14 @@
+# Binary
+sf-bq-sync
+
+# Config with real credentials
+sync.json
+
+# Go
+*.test
+*.out
+/vendor/
+
+# GCP service account keys — never commit these
+*.json
+!sync.json.example
